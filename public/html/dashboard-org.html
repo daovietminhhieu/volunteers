@@ -835,7 +835,7 @@ const logout = () => {
 
 /* ---------------- API ---------------- */
 
-const API = "http://127.0.0.1:3000/api/v1"
+const API = "https://paintball-raising-military-topic.trycloudflare.com/api/v1"
 
 const api = async (url,opt={})=>{
   const session = getSessionInfo();
@@ -1300,7 +1300,7 @@ function initSocket() {
     const session = getSessionInfo();
     if (!session) return;
 
-    state.socket = io("http://127.0.0.1:3000", { auth: { token: session.token } });
+    state.socket = io("https://paintball-raising-military-topic.trycloudflare.com", { auth: { token: session.token } });
 
     state.socket.on('connect', () => console.log("Socket connected for ORG"));
 
