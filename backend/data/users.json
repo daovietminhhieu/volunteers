@@ -1,0 +1,61 @@
+[
+  {
+    "_id": "1773033580021",
+    "fullName": "Tôi la tôi",
+    "email": "tlt@123.com",
+    "password": "Toilatoi123!",
+    "phone": "1234567489",
+    "point": 0,
+    "role": "volunteer",
+    "skills": [
+      "Teaching",
+      "ITs",
+      "Speaking",
+      "Giao tiếp linh hoạt"
+    ],
+    "campaign_ids": [
+      "1772993904231",
+      "1700000001004",
+      "1700000001006"
+    ]
+  },
+  {
+    "_id": "1773032742436",
+    "fullName": "Người lạ ơi",
+    "email": "xinchotoimuonbovai@laqua.com",
+    "password": "Taikhoanthu123!",
+    "phone": "033311155544",
+    "point": 0,
+    "role": "volunteer",
+    "skills": [
+      "Teaching",
+      "ITs",
+      "Speaking",
+      "Giao tiếp linh hoạt"
+    ],
+    "campaign_ids": [
+      "1700000001001"
+    ]
+  },
+  {
+    "_id": "1772988495008",
+    "fullName": "Viet Minh Hieu Dao",
+    "email": "immhisme1@gmail.com",
+    "password": "Hieuhp123321!",
+    "role": "volunteer",
+    "skills": "Khả năng giao tiếp tốt,Python,C,Java,TEACHING,eNGLISh",
+    "campaign_ids": [
+      "1772993904231",
+      "1700000001005"
+    ],
+    "bio": "Đang tìm kiếm nơi làm tình nguyện viên.\nVẪN ĐANG TÌM !!!"
+  },
+  {
+    "_id": "1772988754208",
+    "fullName": "VHV",
+    "email": "vhv@gmail.com",
+    "password": "Vhv123321!",
+    "role": "organization",
+    "skills": "IT"
+  }
+]
