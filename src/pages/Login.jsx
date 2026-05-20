@@ -27,7 +27,7 @@ function Login() {
     }
 
     try {
-      const response = await fetch("http://103.72.98.176:3000/api/v1/auth/login", {
+      const response = await fetch("https://moses-president-bread-mike.trycloudflare.com/api/v1/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
