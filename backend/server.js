@@ -10,7 +10,7 @@ const { readFile, writeFile, genId } = require("./utils/fileStore");
 const USERS_FILE = "users.json";
 const NOTIFICATIONS_FILE = "notifications.json";
 
-const hostname = "127.0.0.1";
+const hostname = "0.0.0.0";
 const port = Number(process.env.PORT || 3000);
 
 const app = express();
